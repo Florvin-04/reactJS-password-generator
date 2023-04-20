@@ -1,0 +1,20 @@
+@use "./functionSASS/function.scss" as *;
+
+#root {
+  min-height: inherit;
+  background-color: black;
+}
+
+.App {
+  //
+  padding-top: 5em;
+  width: min(rem(500), 90%);
+  margin-inline: auto;
+
+  .header {
+    color: hsl(var(--Neutral-200));
+    text-align: center;
+  }
+
+
+}
